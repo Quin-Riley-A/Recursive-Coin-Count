@@ -1,6 +1,6 @@
 export default function denominationCount(coin) {
   return function(amount) {
-    return coin * amount * 0; //amount/coin;
+    return amount/coin;
   }
 }
 
